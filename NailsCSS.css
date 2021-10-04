@@ -1,0 +1,94 @@
+.header {
+     width: 100%;
+     position: fixed;
+     background-color:rgb(250, 150, 150);
+     height: 80px;
+     top: 0;
+     left: 0;
+}
+
+.headerlinks {
+     text-align: right;
+     margin-right: 20px;
+     margin-top: 30px;
+}
+
+.home, .services, .contact {
+     margin: 5px 5px 5px 5px;
+     background-color: rgb(220, 120, 120);
+     border: 1px solid rgb(255,255,255);
+     font-size: 18px;
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+}
+
+a {
+     border-radius: 25px;
+     padding: 5px
+}
+
+a:hover {
+     background-color: rgb(200, 100, 100);
+     color: rgb(255, 255, 255);
+}
+
+a.logo {
+     font-size: 40px;
+     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+     margin-left: 10px;
+     margin-top: 10px;
+     position: absolute;
+     color:rgb(0, 0, 0);
+     text-decoration: none;
+}
+
+
+.footer {
+     width: 100%;
+     position: relative;
+     background-color:rgb(250, 150, 150);
+     height: 160px;
+     bottom: 0;
+}
+
+.footerlinks {
+     text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+     padding-top: 15px;
+}
+
+.imgpic {
+     text-align: center;
+}
+
+p {
+     font-size: 18px;
+}
+
+h1{
+     font-size: 32px;
+}
+
+h2{
+     font-size: 26px;
+}
+
+h3 {
+     font-size: 20px;
+}
+
+p, h1, h2, h3 {
+     text-align: center;
+}
+
+table {
+     width: 100%;
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.tableheader {
+     text-align: center;
+     text-decoration: underline;
+}
